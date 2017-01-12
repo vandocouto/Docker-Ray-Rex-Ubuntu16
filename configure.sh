@@ -2,7 +2,7 @@
 
 # instalando o Docker Engine no Ubuntu16
 apt-get update
-apt-get install apt-transport-https ca-certificates curl -y
+apt-get install apt-transport-https ca-certificates curl nfs-common -y
 
 apt-key adv \
 --keyserver hkp://ha.pool.sks-keyservers.net:80 \
