@@ -12,7 +12,7 @@ echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | tee /etc/apt/
 
 apt-get update
 apt-cache policy docker-engine
-apt-get install docker-engine
+apt-get install docker-engine -y
 
 # instalando o Rex-Ray no Ubuntu16
 curl -sSL https://dl.bintray.com/emccode/rexray/install | sh -s -- stable
